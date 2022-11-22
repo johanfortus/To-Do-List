@@ -1,0 +1,95 @@
+
+html{
+    font-family: 'Patrick Hand', cursive;
+}
+.finished{
+    text-decoration: line-through;
+}
+
+form{
+    position: absolute;
+    top: 400px;
+}
+.container{
+    position: absolute;
+    left: 48%;
+    top: 20%;
+}
+ul{
+    list-style: none;
+    margin-left: -50px;
+}
+li:nth-child(n+13){
+    display: none;
+}
+.desk{
+    position: absolute;
+    left: -1%;
+    bottom: -2%;
+}
+.notebook{
+    position: absolute;
+    left: 45%;
+    top: 20%;
+}
+@media(max-width: 600px){
+    form{
+        position: absolute;
+        top: 400px;
+    }
+    .container{
+        position: absolute;
+        left: 40%;
+        top: 20%;
+    }
+    .notebook{
+        position: absolute;
+        left: 30%;
+        top: 20%;
+    }
+    .desk{
+        display: none;
+    }
+    body{
+        background-color: RGB(241,105,107);
+    }
+}
+button:hover{
+    cursor: pointer;
+}
+li:hover{
+    cursor: pointer;
+}
+
+@media (max-width: 500px){
+    form{
+        position: absolute;
+        top: 400px;
+    }
+    .container{
+        position: absolute;
+        left: 30%;
+        top: 20%;
+    }
+    .notebook{
+        position: absolute;
+        left: 20%;
+        top: 20%;
+    }
+}
+@media (max-width: 400px){
+    form{
+        position: absolute;
+        top: 350px;
+    }
+    .container{
+        position: absolute;
+        left: 20%;
+        top: 20%;
+    }
+    .notebook{
+        position: absolute;
+        left: 10%;
+        top: 15%;
+    }
+}
